@@ -1,8 +1,9 @@
-import React from 'react'
-import LinkedInIcon from '@material-ui/icons/LinkedIn'
-import EmailIcon from '@material-ui/icons/Email'
-import GithubIcon from '@material-ui/icons/Github'
-import '../styles/Home.css'
+import React from 'react';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import EmailIcon from '@material-ui/icons/Email';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import '../pages/styles/Home.css';
+
 
 function Home() {
   return (
@@ -10,10 +11,10 @@ function Home() {
       <div className="about">
         <h2> Hi, My Name is Christopher</h2>
         <div className="prompt">
-          <p> A Web Developer With Vanilla Skills.</p>
+          <p> A Junior Web Developer With Vanilla Skills and a Hot Fudge Attitude.</p>
           <LinkedInIcon />
           <EmailIcon />
-          <GithubIcon />
+          <GitHubIcon />
         </div>
       </div>
       <div className="skills">
@@ -39,4 +40,4 @@ function Home() {
   );
 }
 
-export default Home
+export default Home;

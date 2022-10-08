@@ -1,14 +1,15 @@
-import React from 'react'
+import React from 'react';
 import {
   VerticalTimeline,
   VerticalTimelineElement,
-} from 'react-vertical-timeline-component'
-import 'react-vertical-timeline-component/style.min.css'
-import SchoolIcon from '@material-ui/icons/School'
-import HouseIcon from '@material-ui/icons/House'
-import FlightIcon from '@material-ui/icons/Flight'
-import DirectionsBoatIcon from '@material-ui/icons/DirectionsBoat'
-import '../styles/Experience.css'
+} from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
+import SchoolIcon from '@material-ui/icons/School';
+import HouseIcon from '@material-ui/icons/House';
+import FlightIcon from '@material-ui/icons/Flight';
+import DirectionsBoatIcon from '@material-ui/icons/DirectionsBoat';
+import '../pages/styles/Experience.css';
+
 
 function Experience() {
   return (
@@ -99,7 +100,7 @@ function Experience() {
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
-  )
+  );
 }
 
-export default Experience
+export default Experience;
