@@ -1,7 +1,6 @@
 import React from "react";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import EmailIcon from "@mui/icons-material/Email";
-import GitHubIcon from "@mui/icons-material/GitHub";
+import { LinkedIn, Email, GitHub } from "@mui/icons-material";
+
 import "../pages/styles/Home.css";
 
 const Home = () => {
@@ -11,9 +10,9 @@ const Home = () => {
 				<h2> Hi, My Name is Christopher</h2>
 				<div className="prompt">
 					<p> A Junior Web Developer With Vanilla Skills and a Hot Fudge Attitude.</p>
-					<LinkedInIcon />
-					<EmailIcon />
-					<GitHubIcon />
+					<LinkedIn />
+					<Email />
+					<GitHub />
 				</div>
 			</div>
 			<div className="skills">
@@ -21,7 +20,7 @@ const Home = () => {
 				<ol className="list">
 					<li className="item">
 						<h2> Front-End</h2>
-						<span>HTML, CSS, BootStrap, TailwindCSS, AnimeJS, ReactJS,</span>
+						<span>HTML, CSS, BootStrap, Handlebars, TailwindCSS, AnimeJS, ReactJS,</span>
 					</li>
 					<li className="item">
 						<h2> Back-End</h2>

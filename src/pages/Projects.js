@@ -4,10 +4,10 @@
 
 import React from 'react';
 import ProjectItem from "../components/ProjectItem";
-import IMAGE1 from "../assets/images/image1.webp";
-import IMAGE2 from "../assets/images/image2.jpeg";
-import IMAGE3 from "../assets/images/image3.jpeg";
-import  ProjectList  from "../components/helpers/ProjectList.json";
+import IMAGE0 from "../assets/images/image1.webp";
+import IMAGE1 from "../assets/images/image2.jpeg";
+import IMAGE2 from "../assets/images/image3.jpeg";
+import  { ProjectList }   from "../components/helpers/ProjectList";
 import "../pages/styles/Projects.css";
 
 
