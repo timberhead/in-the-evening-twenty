@@ -1,24 +1,24 @@
-import IMAGE0 from "../../assets/images/image1.webp";
-import IMAGE1 from "../../assets/images/image2.jpeg";
-import IMAGE2 from "../../assets/images/image3.jpeg";
+import FuzzyFriendFinder from "../../assets/images/image1.webp";
+import TheFooDs from "../../assets/images/image2.jpeg";
+import Project3 from "../../assets/images/image3.jpeg";
 
-const IMAGE = [{IMAGE0}, {IMAGE1}, {IMAGE2}]
+const IMAGE = [{FuzzyFriendFinder}, {TheFooDs}, {Project3}]
 
 export const ProjectList = [
 	{
-		"name": "fuzzy-friend-finder",
+		"name": "FuzzyFriendFinder",
 		"image": {IMAGE},
 		"skills": "HTML, CSS, JavaScript"
 	},
 
 	{
-		"name": "the-foo-d-s",
+		"name": "TheFooDs",
 		"image": {IMAGE},
 		"skills": "HTML, CSS, JavaScript, TailwindCSS, MySQL, Node.js, Insomnia"
 	},
 
 	{
-		"name": "group-project-3",
+		"name": "Project3",
 		"image": {IMAGE},
 		"skills": "HTML, CSS, JavaScript, React"
 	},

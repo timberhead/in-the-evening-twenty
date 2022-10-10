@@ -39,6 +39,13 @@
     color: white;
 }
 
+.skills-hero {
+    background-image: url('../../assets/images/image4.jpeg');
+    object-fit: fill;
+    background-repeat: no-repeat;
+    background-color: #ffffff20;
+}
+
 .skills {
     font-size: 35px;
     width: 100%;
@@ -46,15 +53,18 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .skills h1 {
     color: #3e497a;
+    text-align: center;
 }
 
 .skills .list {
     list-style: none;
     width: 60%;
+    
 }
 
 .list span {

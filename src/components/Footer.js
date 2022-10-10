@@ -13,7 +13,7 @@ function Footer() {
 				<LinkedIn />
 				<GitHub />
 			</div>
-			<p> &copy; 2022 christophertech.com</p>
+			<p> &copy; 2022 cbwebdevelopers.com</p>
 		</div>
 	);
 }
