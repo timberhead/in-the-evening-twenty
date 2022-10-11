@@ -13,7 +13,14 @@ function Footer() {
 				<LinkedIn />
 				<GitHub />
 			</div>
-			<p> &copy; 2022 cbwebdevelopers.com</p>
+			<div className="links">
+				<Link to="/">Instagram</Link>
+				<Link to="/">Twitter</Link>
+				<Link to="/">Facebook</Link>
+				<Link to="/">LinkedIn</Link>
+				<Link to="/">GitHub</Link>
+			</div>
+			<p> &copy; 2022 cbwebdevelopers.com  💣</p>
 		</div>
 	);
 }

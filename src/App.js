@@ -1,6 +1,7 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
+import Email from "./pages/EmailContactForm";
 import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";
 import Navbar from "./components/Navbar";
@@ -14,6 +15,7 @@ function App() {
 				<Navbar />
 				<Routes>
 					<Route path="/" element={<Home />} />
+					<Route path="/" element={<Email />} />
 					<Route path="/projects" element={<Projects />}>
 						<Route path="/projects/:id" element={<ProjectDisplay />} />
 					</Route>

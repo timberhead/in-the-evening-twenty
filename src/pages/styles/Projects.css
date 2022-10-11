@@ -9,7 +9,7 @@
 
 .projects .projectTitle {
     text-align: center;
-    color: #3e497a;
+    color: #09256d ;
     font-size: 60px;
     font-weight: bolder;
 }
@@ -51,19 +51,19 @@ projectItem:hover {
     font-size: 25px;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1200px) {
     .projectList {
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
     .projectList {
         grid-template-columns: 1fr;
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
     .projectList {
         width: 100%;
     }

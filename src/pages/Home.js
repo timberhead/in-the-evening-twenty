@@ -6,11 +6,13 @@ import '../pages/styles/Home.css'
 const Home = () => {
   return (
     <div className="home">
+      <div className="about-image"></div>
       <div className="about">
         <h2> Hi, My Name is Christopher</h2>
+        <p></p>
+        <p></p>
         <div className="prompt">
           <p>
-            {' '}
             A Junior Web Developer With Vanilla Skills and a Hot Fudge Attitude.
           </p>
           <LinkedIn />
