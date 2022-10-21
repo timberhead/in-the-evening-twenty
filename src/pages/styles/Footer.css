@@ -14,9 +14,16 @@
     margin-top: 0px;
 }
 
+.btn.btn-1 {
+    background-color: #09256d;
+    margin: 0px;
+
+}
+
 .socialMedia svg {
-    color: white;
-    margin: 20px;
+    background-color: #09256d;
+    color: #ebce2a;
+    margin: 0px;
     font-size: 70px;
     cursor: pointer;
 }

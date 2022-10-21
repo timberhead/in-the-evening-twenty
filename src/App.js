@@ -7,6 +7,8 @@ import Experience from "./pages/Experience";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ProjectDisplay from "./pages/ProjectDisplay";
+import EmailContactForm from "./pages/EmailContactForm";
+
 
 function App() {
 	return (
@@ -15,7 +17,7 @@ function App() {
 				<Navbar />
 				<Routes>
 					<Route path="/" element={<Home />} />
-					<Route path="/" element={<Email />} />
+					<Route path="/" element={<EmailContactForm />} />
 					<Route path="/projects" element={<Projects />}>
 						<Route path="/projects/:id" element={<ProjectDisplay />} />
 					</Route>

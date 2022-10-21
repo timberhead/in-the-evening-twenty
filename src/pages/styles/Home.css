@@ -17,6 +17,12 @@ img {
     border-radius: 50%;
 }
 
+.btn.btn-1 {
+    background-color: #09256d;
+    margin: 0px;
+
+}
+
 .about {
     width: 100%;
     height: calc(100vh - 100px);
@@ -42,8 +48,9 @@ img {
 }
 
 .prompt svg {
+    background-color: #09256d;
     font-size: 60px;
-    margin: 5px;
+    margin: 0px;
     color: #ebce2a;
 }
 

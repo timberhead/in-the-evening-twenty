@@ -1,8 +1,10 @@
 import React from 'react'
 import { LinkedIn, Email, GitHub } from '@mui/icons-material'
 import image from "../assets/images/image5.jpeg";
+import EmailContactForm from './EmailContactForm';
 
 import '../pages/styles/Home.css'
+import { Link } from '@material-ui/icons';
 
 const Home = () => {
   return ( 
@@ -23,13 +25,19 @@ const Home = () => {
           <p>
             A Junior Web Developer With Vanilla Skills and a Hot Fudge Attitude.
           </p>
-          <LinkedIn />
-          <Email />
-          {/* <link to="/Email">
-            <Email className="Email" variant="primary">
-          </Email>
-          </link> */}
-          <GitHub />
+
+          <a href="https://www.linkedin.com/in/christopher-boyle-96b017245/" target="_blank">
+              <button className="btn btn-1"><LinkedIn /></button>
+            </a>
+
+          <a href="./EmailContactForm" target="_blank">
+              <button className="btn btn-1"><Email /></button>
+            </a>
+
+            <a href="https://www.github.com/timberhead" target="_blank">
+              <button className="btn btn-1"><GitHub /></button>
+              </a>
+
         </div>
         <p></p>
         <p></p>
