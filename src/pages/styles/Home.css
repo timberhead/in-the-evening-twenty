@@ -9,10 +9,12 @@
     color: #21325e;
 }
 
-.about .image {
-    width: 200px url('../../assets/images/image4.jpeg');
+img {
+    width: 200px url('../../assets/images/image5.jpeg');
     height: auto;
     display: flex;
+    border-style: hidden;
+    border-radius: 50%;
 }
 
 .about {

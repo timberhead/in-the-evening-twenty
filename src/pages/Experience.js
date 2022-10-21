@@ -25,7 +25,7 @@ function Experience() {
 					iconStyle={{ background: "#e9d35b", color: "#fff" }}
 					icon={<House />}
 				>
-					<h3 className="vertical-timeline-element-title">Timberhead Customs, Inc, Longmont, Colorado</h3>
+					<h3 className="vertical-timeline-element-title">Timberhead Customs, Inc. Longmont, Colorado</h3>
 					<p> Custom Building and Finish Carpentry</p>
 				</VerticalTimelineElement>
 

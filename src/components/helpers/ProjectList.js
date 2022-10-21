@@ -1,8 +1,8 @@
 import FuzzyFriendFinder from "../../assets/images/image1.webp";
 import TheFooDs from "../../assets/images/image2.jpeg";
-import Project3 from "../../assets/images/image3.jpeg";
+import TheRegistry from "../../assets/images/the-registry.jpeg";
 
-const IMAGE = [{FuzzyFriendFinder}, {TheFooDs}, {Project3}]
+const IMAGE = [{FuzzyFriendFinder}, {TheFooDs}, {TheRegistry}]
 
 export const ProjectList = [
 	{
@@ -18,7 +18,7 @@ export const ProjectList = [
 	},
 
 	{
-		"name": "Project3",
+		"name": "TheRegistry",
 		"image": {IMAGE},
 		"skills": "HTML, CSS, JavaScript, React"
 	},

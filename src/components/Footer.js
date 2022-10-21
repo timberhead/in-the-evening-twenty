@@ -7,19 +7,21 @@ function Footer() {
 	return (
 		<div className="footer">
 			<div className="socialMedia">
+				<a href="instagram"> 
 				<Instagram />
+				</a>
 				<Twitter />
 				<Facebook />
 				<LinkedIn />
 				<GitHub />
 			</div>
-			<div className="links">
+			{/* <div className="links">
 				<Link to="/">Instagram</Link>
 				<Link to="/">Twitter</Link>
 				<Link to="/">Facebook</Link>
 				<Link to="/">LinkedIn</Link>
 				<Link to="/">GitHub</Link>
-			</div>
+			</div> */}
 			<p> &copy; 2022 cbwebdevelopers.com  💣</p>
 		</div>
 	);

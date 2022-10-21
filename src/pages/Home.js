@@ -1,13 +1,21 @@
 import React from 'react'
 import { LinkedIn, Email, GitHub } from '@mui/icons-material'
+import image from "../assets/images/image5.jpeg";
 
 import '../pages/styles/Home.css'
 
 const Home = () => {
-  return (
+  return ( 
     <div className="home">
       <div className="about-image"></div>
       <div className="about">
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <img src={image} width="200px" border-radius="50%"/>
         <h2> Hi, My Name is Christopher</h2>
         <p></p>
         <p></p>
@@ -17,8 +25,18 @@ const Home = () => {
           </p>
           <LinkedIn />
           <Email />
+          {/* <link to="/Email">
+            <Email className="Email" variant="primary">
+          </Email>
+          </link> */}
           <GitHub />
         </div>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
       </div>
       <div className="skills-hero">
         <div className="skills">
@@ -44,6 +62,7 @@ const Home = () => {
         </div>
       </div>
     </div>
+    
   )
 }
 
