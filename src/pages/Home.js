@@ -1,7 +1,8 @@
 import React from 'react'
 import { LinkedIn, Email, GitHub } from '@mui/icons-material'
-import image from "../assets/images/image5.jpeg";
-import EmailContactForm from './EmailContactForm';
+import image1 from "../assets/images/image5.jpeg";
+// import image from "../assets/images/image4.jpeg";
+import EmailContactForm from './Contact';
 
 import '../pages/styles/Home.css'
 import { Link } from '@material-ui/icons';
@@ -17,7 +18,7 @@ const Home = () => {
         <p></p>
         <p></p>
         <p></p>
-        <img src={image} width="200px" border-radius="50%"/>
+        <img src={image1} width="200px" border-radius="50%"/>
         <h2> Hi, My Name is Christopher</h2>
         <p></p>
         <p></p>
@@ -30,7 +31,7 @@ const Home = () => {
               <button className="btn btn-1"><LinkedIn /></button>
             </a>
 
-          <a href="./EmailContactForm" target="_blank">
+          <a href="./Contact" target="_blank">
               <button className="btn btn-1"><Email /></button>
             </a>
 
@@ -46,7 +47,7 @@ const Home = () => {
         <p></p>
         <p></p>
       </div>
-      <div className="skills-hero">
+      <div className="hero-skills">
         <div className="skills">
           <h1> Skills</h1>
           <ol className="list">

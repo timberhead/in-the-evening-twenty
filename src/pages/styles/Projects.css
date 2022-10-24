@@ -1,4 +1,26 @@
+.hero-projects {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;   
+}
+
+.hero-projects::before {
+    content: "";
+    background-image: url('../../assets/images/image6.jpeg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    opacity: 0.60;
+}
+
+
 .projects {
+    position: relative;
     width: 100%;
     height: auto;
     display: flex;
@@ -6,6 +28,7 @@
     align-items: center;
     flex-direction: column;
 }
+
 
 .projects .projectTitle {
     text-align: center;
@@ -15,6 +38,7 @@
 }
 
 .projectList {
+    position: relative;
     width: 70vw;
     height: auto;
     display: grid;
@@ -48,6 +72,7 @@
 }
 
 .projectItem h1 {
+    position: relative;
     font-size: 25px;
 }
 

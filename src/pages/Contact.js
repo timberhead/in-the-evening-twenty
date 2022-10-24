@@ -1,22 +1,22 @@
 
 import React, { useRef } from 'react';
-// import emailjs from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
  
-const EmailContactForm = () => {
+const Contact = () => {
  const form = useRef();
  
- const promise = new Promise((result) => {
-    result("You did it!");
- })
+//  const promise = new Promise((result) => {
+//     result("You did it!");
+//  })
  
  const sendEmail = (e) => {
    e.preventDefault(); // prevents the page from reloading when you hit “Send”
  
-  //  emailjs.sendForm('service_z4jyqvl', 'template_cu8b933', form.current, 'BatLNw2N7hOBt9qEQ')
-     promise.then((result) => {
-         // show the user a success message
-     }, (error) => {
-         // show the user an error
+   emailjs.sendForm('service_z4jyqvl', 'template_cu8b933', form.current, 'BatLNw2N7hOBt9qEQ')
+   .then(function(response) {
+    console.log('SUCCESS!', response.status, response.text);
+ }, function(error) {
+    console.log('FAILED...', error);
      });
  };
  
@@ -33,4 +33,4 @@ const EmailContactForm = () => {
  );
 };
  
-export default EmailContactForm;
+export default Contact;
