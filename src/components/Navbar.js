@@ -21,11 +21,12 @@ function Navbar() {
 					onClick={() => {
 						setExpandNavbar((prev) => !prev);
 					}}
-				>
+					>
 					<ReorderIcon />
 				</button>
 			</div>
 			<div className="links">
+					<p>Christopher Boyle</p>
 				<Link to="/"> Home </Link>
 				<Link to="/projects"> Projects </Link>
 				<Link to="/experience"> Experience </Link>

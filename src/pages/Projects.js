@@ -11,6 +11,9 @@ function Projects() {
   return (
     <div className="hero-projects">
       <div className="projects">
+        <p></p>
+        <p></p>
+        <p></p>
         <h1>My Projects</h1>
         <div className="projectList">
           {ProjectList.map((project, idx) => {
