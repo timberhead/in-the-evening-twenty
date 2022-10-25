@@ -9,6 +9,15 @@
     color: #09256d;
 }
 
+.about-image {
+    display: flex;
+    padding-top: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #09256d;
+}
+
 img {
     width: 200px url('../../assets/images/image5.jpeg');
     height: auto;
@@ -17,11 +26,6 @@ img {
     border-radius: 50%;
 }
 
-.btn.btn-1 {
-    background-color: #09256d;
-    margin: 0px;
-
-}
 
 .about {
     width: 100%;
@@ -47,6 +51,12 @@ img {
     font-size: 30px;
 }
 
+.btn.btn-1 {
+    background-color: #09256d;
+    margin: 0px;
+
+}
+
 .prompt svg {
     background-color: #09256d;
     font-size: 60px;
@@ -54,7 +64,7 @@ img {
     color: #ebce2a;
 }
 
-.skills::before {
+/* .skills::before {
     content: "";
     background-color: #09256d;
     background-size: cover;
@@ -64,10 +74,10 @@ img {
     left: 0px;
     bottom: 0px;
     opacity: 0.10;
-}
+} */
 
 .skills {
-    position: relative;
+    /* position: relative; */
     /* background-color: #09256d; */
     font-size: 35px;
     width: 100%;
@@ -80,7 +90,7 @@ img {
 
 
 .hero-skills {
-    position: relative;
+    /* position: relative; */
     background-image: url('../../assets/images/image4.jpeg');
     background-size: 100%;
     background-repeat: no-repeat;
@@ -89,14 +99,14 @@ img {
 
 
 .skills h1 {
-    position: relative;
+    /* position: relative; */
     color: #f0f0f0;
     text-shadow: #09256d 1px 2px ;
     text-align: center;
 }
 
 .skills .list {
-    position: relative;
+    /* position: relative; */
     list-style: none;
     text-shadow: #f0f0f0 1px 2px;
     width: 60%;
@@ -104,7 +114,7 @@ img {
 }
 
 .list span {
-    position: relative;
+    /* position: relative; */
     font-size: 20px;
 }
 

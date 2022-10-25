@@ -3,7 +3,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;   
+    height: 100%;
+    background-repeat: repeat-y;   
 }
 
 .hero-projects::before {
@@ -24,7 +25,7 @@
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
 }
@@ -82,19 +83,20 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
     .projectList {
         grid-template-columns: 1fr;
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
     .projectList {
         width: 100%;
     }
 
     .projectItem {
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
+        background-repeat: repeat-y;
     }
 }

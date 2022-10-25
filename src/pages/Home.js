@@ -1,6 +1,6 @@
 import React from 'react'
 import { LinkedIn, Email, GitHub } from '@mui/icons-material'
-import image1 from "../assets/images/image5.jpeg";
+import image from "../assets/images/image5.jpeg";
 // import image from "../assets/images/image4.jpeg";
 import EmailContactForm from './Contact';
 
@@ -10,15 +10,11 @@ import { Link } from '@material-ui/icons';
 const Home = () => {
   return ( 
     <div className="home">
-      <div className="about-image"></div>
+      <div className="about-image">
+        <img src={image} width="200px" border-radius="50%"/>
+      </div>
       <div className="about">
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <img src={image1} width="200px" border-radius="50%"/>
+        
         <h2> Hi, My Name is Christopher</h2>
         <p></p>
         <p></p>
@@ -40,12 +36,7 @@ const Home = () => {
               </a>
 
         </div>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
+        
       </div>
       <div className="hero-skills">
         <div className="skills">
