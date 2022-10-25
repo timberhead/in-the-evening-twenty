@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/in-the-evening-twenty/static/css/main.65e87e41.css",
+    "main.js": "/in-the-evening-twenty/static/js/main.951a2ebc.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/in-the-evening-twenty/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/image5.jpeg": "/in-the-evening-twenty/static/media/image5.0f5ac8333af0784cca2f.jpeg",
+    "static/media/the-registry.jpeg": "/in-the-evening-twenty/static/media/the-registry.d169846a3a27d8abda99.jpeg",
+    "static/media/image2.jpeg": "/in-the-evening-twenty/static/media/image2.fc815ebd834971faabd1.jpeg",
+    "static/media/image6.jpeg": "/in-the-evening-twenty/static/media/image6.bc74ab48f84950905bb5.jpeg",
+    "static/media/image1.webp": "/in-the-evening-twenty/static/media/image1.4f3260c40e3e1cefc737.webp",
+    "static/media/image4.jpeg": "/in-the-evening-twenty/static/media/image4.40675a563609873b2002.jpeg",
+    "index.html": "/in-the-evening-twenty/index.html",
+    "main.65e87e41.css.map": "/in-the-evening-twenty/static/css/main.65e87e41.css.map",
+    "main.951a2ebc.js.map": "/in-the-evening-twenty/static/js/main.951a2ebc.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/in-the-evening-twenty/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65e87e41.css",
+    "static/js/main.951a2ebc.js"
+  ]
+}
